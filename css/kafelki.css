@@ -1,0 +1,64 @@
+.tile {
+  border-radius: 2px;
+  border-width: 0px;
+  color: red;
+  font-size: xx-small;
+  font-weight: bold;
+  height: 5%;
+  position: fixed;
+  text-align: center;
+  width: 5%;
+  z-index: 99;
+}
+.tile:hover {
+  cursor: wait;
+}
+.tileXX {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  display: none;
+  font-size: xx-small;
+  font-weight: bold;
+  height: 15px;
+  position: relative;
+  text-align: center;
+  width: 15px;
+  z-index: 100;
+}
+.tileXX:hover {
+  cursor: default;
+}
+
+.wandering-tile {
+  background-color: brown;
+  border: 1px solid brown;
+  border-radius: 25px;
+  left: 100px;
+  font-size: x-small;
+  height: 50px;
+  opacity: 0.6;
+  position: fixed;
+  text-align: center;
+  top: 100px;
+  width: 50px;
+  z-index: 101;
+}
+.wandering-tile:hover {
+  background-color: red;
+}
+
+.blocking-tile {
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 25px;
+  font-size: x-small;
+  height: 50px;
+  left: 100px;
+  opacity: 0.1;
+  position: fixed;
+  text-align: center;
+  top: 100px;
+  width: 50px;
+  z-index: 101;
+}

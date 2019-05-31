@@ -1,0 +1,686 @@
+<html>
+<head>
+  <title>AZetKa ...</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AZetKa studio presentation">
+  <meta name="keywords" content="ankiety, wprowadzanie danych, capi, wapi, cati, przetwarzanie danych, zestawy tabelaryczne, analiza danych, testy istotności, badania rynku, badania opinii, programowanie, strony internetowe, SPSS, C++, Java Script, HTML, Php">
+  <meta name="author" content="AZetKa studio">
+  <script language="JavaScript" type="text/javascript" src="js/azetka.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/kafelki.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/azetka.css">
+  <link rel="stylesheet" type="text/css" href="css/kafelki.css">
+</head>
+
+<body>
+
+<div id="top-banner-background">
+  <div id="top-banner-ads" class="top-banner-ads">
+    <span id="smalladvert01" class="small-advert"><img src="grafiki/pic01s80.jpg"></span>
+    <span id="smalladvfrm01" class="small-advfrm"></span>
+    <span id="smalladvert02" class="small-advert"><img src="grafiki/pic02s80.jpg"></span>
+    <span id="smalladvfrm02" class="small-advfrm"></span>
+    <span id="smalladvert03" class="small-advert"><img src="grafiki/pic03s80.jpg"></span>
+    <span id="smalladvfrm03" class="small-advfrm"></span>
+    <span id="smalladvert04" class="small-advert"><img src="grafiki/pic04s80.jpg"></span>
+    <span id="smalladvfrm04" class="small-advfrm"></span>
+    <span id="smalladvert05" class="small-advert"><img src="grafiki/pic05s80.jpg"></span>
+    <span id="smalladvfrm05" class="small-advfrm"></span>
+    <span id="smalladvert06" class="small-advert"><img src="grafiki/pic06s80.jpg"></span>
+    <span id="smalladvfrm06" class="small-advfrm"></span>
+    <span id="smalladvert07" class="small-advert"><img src="grafiki/pic07s80.jpg"></span>
+    <span id="smalladvfrm07" class="small-advfrm"></span>
+    <span id="smalladvert08" class="small-advert"><img src="grafiki/pic08s80.jpg"></span>
+    <span id="smalladvfrm08" class="small-advfrm"></span>
+    <span id="smalladvert09" class="small-advert"><img src="grafiki/pic09s80.jpg"></span>
+    <span id="smalladvfrm09" class="small-advfrm"></span>
+    <span id="smalladvert10" class="small-advert"><img src="grafiki/pic10s80.jpg"></span>
+    <span id="smalladvfrm10" class="small-advfrm"></span>
+  </div>
+
+  <div id="baner-logo" class="baner-logo">
+    <div id="logo-banner-left">
+      <div>
+        ankiety<br>
+        &nbsp;analizy i tabele<br>
+        &nbsp;&nbsp;strony www
+      </div>
+    </div>
+    <div id="logo-banner-middle">
+      <img id="company-logo" src="grafiki/azetka100.gif" alt="grafiki/azetka--.jpg">
+    </div>
+    <div id="logo-banner-right">
+      <div>
+        <span id="company-name">AZetKa</span><br>
+        <span id="company-address">tel. 602 154 195</span><br>
+        <span id="company-email"><a href="mailto:azetka@upcpoczta.pl">azetka@azetkaankiety.pl</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="large-advert-window">
+  <img id="large-advert"><!-- src="grafiki/img_3620.jpg" alt="grafiki/img_3620.jpg"> -->
+</div>
+
+
+<div id="menu-horiz-div01" class="menu-horiz-div">
+  <div class="menu-horiz-part">
+    <div id="menu-vert-icon" class="menu-vert-icon" onclick="toggleMenus()">
+      <strong>&#9776;</strong>
+    </div>
+    <div id="menu-vert-cont" class="menu-vert-cont">
+      <ul id="menu-vert-ul01" class="menu-vert-ul" onmouseleave="toggleMenus()">
+        <li class="menu-vert-p0" onclick="showPresentation('o-nas0');">
+          <a href="#o-nas0">O&nbsp;nas</a>
+        </li>
+        <li class="menu-vert-p0" onclick="showPresentation('collecting0');">
+          <a href="#collecting0">Zbieranie&nbsp;danych</a>
+        </li>
+        <li class="menu-vert-p0" onclick="showPresentation('processing0');">
+          <a href="#processing0">Przetwarzanie</a>
+        </li>
+        <li class="menu-vert-p0" onclick="showPresentation('internet0');">
+          <a href="#internet0">Internet</a>
+        </li>
+        <li class="menu-vert-p0" onclick="showPresentation('contact0');">
+          <a href="#contact0">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="menu-horiz-part">
+    <ul id="menu-horiz-ul01" class="menu-horiz-ul">
+      <li class="menu-horiz-p0">
+        <a href="#o-nas0" onclick="showPresentation('o-nas0')">&nbsp;O&nbsp;nas&nbsp;</a>
+      </li>
+
+      <li class="menu-horiz-p0">
+        <a href="#collecting0" onclick="showPresentation('collecting0')">Zbieranie&nbsp;danych</a>
+        <ul id="menu-horiz-ul01-dm2" class="menu-horiz-p0-dm">
+          <li class="downmenu1" onclick="showPresentation('collecting1')"><a href="#collecting1">Ankiety PAPI</a></li>
+          <li class="downmenu1" onclick="showPresentation('collecting2')"><a href="#collecting2">Wprowadzanie danych</a></li>
+          <li class="downmenu1" onclick="showPresentation('collecting3')"><a href="#collecting3">Ankiety CAPI</a></li>
+          <li class="downmenu1" onclick="showPresentation('collecting4')"><a href="#collecting4">Ankiety WAPI</a></li>
+        </ul>
+      </li>
+
+      <li class="menu-horiz-p0">
+        <a href="#processing0" onclick="showPresentation('processing0')">Przetwarzanie</a>
+        <ul id="menu-horiz-ul01-dm3" class="menu-horiz-p0-dm">
+          <li class="downmenu1" onclick="showPresentation('processing1')"><a href="#processing1">Walidacja danych</a></li>
+          <li class="downmenu1" onclick="showPresentation('processing2')"><a href="#processing2">Pliki danych</a></li>
+          <li class="downmenu1" onclick="showPresentation('processing3')"><a href="#processing3">Analiza danych</a></li>
+          <li class="downmenu1" onclick="showPresentation('processing4')"><a href="#processing4">Raporty tabelaryczne</a></li>
+        </ul>
+      </li>
+
+      <li class="menu-horiz-p0">
+        <a href="#internet0" onclick="showPresentation('internet0')">Internet</a>
+        <ul id="menu-horiz-ul01-dm4" class="menu-horiz-p0-dm">
+          <li class="downmenu1" onclick="showPresentation('internet1')"><a href="#internet1">Strony internetowe</a>
+            <ul id="menu-horiz-ul01-dm2dm1">
+              <li class="downmenu2" onclick="showPresentation('ajax-i-xml')"><a id="a-ajax-i-xml" href="#ajax-i-xml">Ajax i XML</a></li>
+              <li class="downmenu2" onclick="showPresentation('ciasteczka')"><a id="a-ciasteczka" href="#ciasteczka">Ciasteczka</a></li>
+              <li class="downmenu2" onclick="showPresentation('ajax-i-php')"><a id="a-ajax-i-php" href="#ajax-i-php">Ajax i PHP</a></li>
+            </ul>
+          </li>
+          <li class="downmenu1" onclick="showPresentation('internet2')"><a href="#internet2">Zabawki</a>
+            <ul id="menu-horiz-ul01-dm2dm1">
+              <li class="downmenu2" onclick="showPresentation('zabawki-1')"><a id="a-szufladki" href="#zabawki-1">Szufladki</a></li>
+              <li class="downmenu2" onclick="showPresentation('zabawki-2')"><a id="a-kafelki" href="#zabawki-2">Kafelki</a></li>
+              <li class="downmenu2" onclick="showPresentation('zabawki-3')"><a id="a-znaczki" href="#zabawki-3">Znaczki</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li class="menu-horiz-p0">
+        <a href="#surveys0" onclick="showPresentation('surveys0')">Badania</a>
+        <ul id="menu-horiz-ul01-dm4" class="menu-horiz-p0-dm">
+          <li class="downmenu1" onclick="goToSurvey('161101')"><a>161101 Owoce</a>
+          <li class="downmenu1" onclick="goToSurvey('')"><a>inne</a>
+        </ul>
+      </li>
+
+      <li class="menu-horiz-p0" id="menu-horiz-p0-end">
+        <a href="#contact0" onclick="showPresentation('contact0')">Kontakt</a>
+        <ul id="menu-horiz-ul01-dm5" class="menu-horiz-p0-dm">
+          <li class="downmenu1" onclick="showPresentation('contact1')"><a href="#contact1">azetka@azetkaankiety.pl</a></li>
+          <li class="downmenu1" onclick="showPresentation('contact2')"><a href="#contact2">tel. 602154195</a></li>
+          <li class="downmenu1" onclick="showPresentation('contact3')"><a href="#contact3">tel. 602535910</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+<div id="page-pannels">
+
+  <div id="left-pannel">
+    <div id="monitor-mouse" class="monitor">[&#9776;]</div><br>
+    <div id="monitor-keyboard" class="monitor">[&#9776;]</div><br>
+    <div id="monitor-mainsize" class="monitor">[&#9776;]</div><br>
+    <div id="monitor-mainscroll" class="monitor">[&#9776;]</div><br>
+    <div id="monitor-monitor" class="monitor">[&#9776;]</div>
+  </div>
+
+  <div id="main-pannel">
+    <div id="main-pannel-top">
+      <center><em>sorry za ewenualne błędy, ale się spieszyłem</em></center>
+    </div>
+
+    <div id="main-pannel-middle">
+
+      <div id="presentation-board">
+
+        <section class="presentation-part" id="welcome-pres">
+          <h2 class="subtitle">Dzień dobry? Mamy nadzieję!</h2>
+          <p>
+          Zapraszamy do zapoznania się z naszą stroną internetową.
+          Jest ona w ciągłej przebudowie, bo ciagle mamy nowe pomysly co by to jeszcze do niej dodać.
+          A ponieważ sami zajmujemy się naszą stroną, więc ogranicza nas tylko wyobraźnia i czas.
+          </p>
+          <p>
+          Od lat wykonujemy różne prace wspomagające badania rynku i jesteśmy w tym całkiem nieźli.
+          Czasem naszym minusem jest to, że wiemy co robimy i lubimy to robić dobrze, więc nakład pracy bywa większy.
+          Ale mimo to  potrafimy realizować nasze zadania naprawdę szybko.
+          </p>
+          <p>
+          A przy okazji - lubimy zwiedzać co się da <br>
+          <img class="my-hpictures" src="grafiki/pic_0813s.jpg" style="vertical-align: text-top;">
+          <img class="my-vpictures" src="grafiki/pic_0515s.jpg" style="vertical-align: middle;">,<br>
+          wodospady<img class="my-hpictures" src="grafiki/pic_0809s.jpg" style="vertical-align: middle;">,
+          morze <img class="my-hpictures" src="grafiki/pic_0812.jpg" style="vertical-align: middle;">
+          i góry <img class="my-hpictures" src="grafiki/pic_0109s.jpg" style="vertical-align: middle;">,<br>
+          no i robić zdjęcia.
+          </p>
+        <div id="ceil"><span id="ceil-walker">&#8920;<span id="keyboardIn">napisz coś</span>&#8921;</span></div>
+        </section>
+
+        <section class="presentation-part" id="o-nas0">
+          <h2 class="subtitle">Trochę informacji o nas</h2>
+          <p>
+            Od ponad 30 lat działamy w szeroko rozumianym wspomaganiu badań rynku.
+          </p>
+          <p>
+            Pracowaliśmy dla wielu różnych firm badawczych praktycznie od początku działaności takich pionierów polskiego rynku badań jak Pentor i MEMRB.
+          </p>
+          <p>
+            Realizowaliśmy proces przetwarzania danych podczas realizacji badań dla takich firm jak:
+            <ul>
+              <li>Allianz</li>
+              <li>BASF</li>
+              <li>BAT</li>
+              <li>CPC</li>
+              <li>DHL</li>
+              <li>Henkel</li>
+              <li>IFF</li>
+              <li>Imperial Tobacco</li>
+              <li>JTI</li>
+              <li>Kamis</li>
+              <li>Metro</li>
+              <li>Philip Morris</li>
+              <li>Procter & Gamble</li>
+              <li>Stoen</li>
+              <li>TP SA</li>
+              <li>UniLever</li>
+            </ul>
+          </p>
+        </section>
+
+        <section class="presentation-part" id="collecting0">
+          &nbsp;
+          <section class="presentation-subpart" id="collecting1">
+            <h2 class="subtitle">Ankiety PAPI</h2>
+            <p>
+              Jeżeli wiesz jakie informacje są Ci potrzebne, pomożemy w dobraniu pytań, które dostarczą odpowiedzi na interesujące zagadnienia.
+            </p>
+            <p>
+              Pomożemy przygotować ankietę, którą będzie można wydrukować w celu przeprowadzenia wywiadów.
+            </p>
+            <p>
+              Ankiety mogą być przygotowane w róznych formatach wyjściowych: doc, docx, odt, pdf, txt.
+            </p>
+          </section>
+
+          <section class="presentation-subpart" id="collecting2">
+            <h2 class="subtitle">Wprowadzanie danych</h2>
+            <p>
+              Oferujemy szybkie i prawie bezbłędne wprowadzanie danych za pomocą specjalistycznego programu.
+            </p>
+            <p>
+              Dane numeryczne nie są wprowadzane do arkusza kalkulacyjnego, dzięki czemy można uzyskać dużo większą szybkość i jakość.
+              Dane tekstowe wprowadzane są odrębnego pliku i oczywiście ostatecznie mogą zostać połączone z danymi liczbowymi.
+            </p>
+            <p>
+              Dane mogą zostać dostarczone w dowolnym, wybranym formacie.
+            </p>
+          </section>
+
+          <section class="presentation-subpart" id="collecting3">
+            <h2 class="subtitle">Ankiety CAPI</h2>
+            <p>
+              Ankiety CAPI są przygotowywane w języku C++ i są kompilowane docelowo na platformę Ms Windows.<br>
+              Ankiety pod Linuxa powinny być niedługo dostępne, choć zależy to od zainteresowania klientów.
+            </p>
+            <p>
+              Ankiety mogą zawierać rotacje zarówno testowanych produktów, jak i kolejności zadawania pytań.<br>
+              Program kontroluje proces wypełniania ankiety za pomocą filtrów.
+            </p>
+          </section>
+
+          <section class="presentation-subpart" id="collecting4">
+            <h2 class="subtitle">Ankiety WAPI</h2>
+            <p>
+              Ankiety są uruchamiana na naszym serwerze.
+            </p>
+            <p>
+              Możliwe jest przygotowanie narzędzi do śledzenia realizacji próby lub cząstkowych wyników według potrzeb.
+            </p>
+            <p>
+              Ankiety mogą zawierać rotacje zarówno testowanych produktów, jak i kolejności zadawania pytań.<br>
+              Program kontroluje proces wypełniania ankiety za pomocą filtrów.
+            </p>
+          </section>
+        </section>
+
+        <section class="presentation-part" id="processing0">
+          &nbsp;
+          <section class="presentation-subpart" id="processing1">
+
+            <h2 class="subtitle">Walidacja danych</h2>
+            <p>
+              Zawsze po zakończeniu zbierania danych dane są weryfikowane pod kątem ich kompletności i zgodności,
+              tak by możliwie maksymalnie wyeliminować błędy i braki danych.
+            </p>
+          </section>
+
+          <section class="presentation-subpart" id="processing2">
+            <h2 class="subtitle">Pliki danych</h2>
+            <p>
+              Dane dostarczane są w wymaganym formacie: ASCII, csv, sav, xls, xlsx, ods, JSON oraz XML.
+              W przypadku plików tekstowych konieczne jest ustalenie kodowania znaków.
+            </p>
+          </section>
+
+          <section class="presentation-subpart" id="processing3">
+            <h2 class="subtitle">Analiza danych</h2>
+            <p>
+              Możliwe jest przeprowadzenie analiz danych:
+              <ul>
+                <li>testy istotności</li>
+                <li>korelacje</li>
+                <li>analiza TURF</li>
+                <li>analiza czynnikowa</li>
+                <li>analiza regresji</li>
+                <li>inne? na życzenie</li>
+              </ul>
+            </p>
+          </section>
+
+          <section class="presentation-subpart" id="processing4">
+            <h2 class="subtitle">Raporty tabelaryczne</h2>
+            <p>
+              Raporty tabelaryczne dostarczane są w formie arkuszy kalkulacyjnych w formatach xls, xlsx, ods lub pdf.
+            </p>
+          </section>
+        </section>
+
+        <section class="presentation-part" id="internet0">
+          <h2 class="subtitle">Strony internetowe</h2>
+          <p>
+            Nie robimy stron jedynie według wzorca, choć taki możemy zaproponować.
+          </p>
+          <p>
+            Pozwalamy popisać się wyobraźnią.
+          </p>
+          <p>
+            Większość użytkowników nie wie, jak intersujące elementy można umieścić na stronie www.
+          </p>
+          <p>
+            Zapraszamy do działu z zabawkami, który jest w stałej rozbudowie.
+          </p>
+        </section>
+
+        <section class="presentation-part" id="ajax-i-xml">
+          <h2 class="subtitle">Bardzo krótki i prosty testy AJAXa z odczytywaniem pliku przygotowanego w XML</h2>
+          <h2 class="subtitle">skład płyt</h2>
+          <button type="button" onclick="showXMLinfo('xml/spis_plyt.xml', 'AUTOR')">pokaż autorów</button>
+          <button type="button" onclick="showXMLinfo('xml/spis_plyt.xml', 'TYTUL')">pokaż tytuły</button>
+          <button type="button" onclick="showXMLinfo('xml/spis_plyt.xml', 'UTWOR')">pokaż utwory</button>
+          <button type="button" onclick="showPlyty('xml/spis_plyt.xml')">pokaż płyty</button>
+          <br>
+          <div id="ajax-i-xml-store"></div>
+        </section>
+
+        <section class="presentation-part" id="ciasteczka">
+          <h2 class="subtitle">Bardzo krótki i prosty pokaz z zapisywaniem i odczytywaniem cisteczek.</h2>
+          <p><i>(Używając go wyrażasz zgodę na ich zapisywanie.)</i></p>
+          <button type="button" onclick="getData()">wpisz dane</button>
+          <button type="button" onclick="saveCookies()">zapisz ciasteczka</button>
+          <button type="button" onclick="readCookies()">odczytaj ciasteczka</button>
+          <button type="button" onclick="removeCookies()">usuń ciasteczka</button>
+          <br>
+          <div id="ciasteczka-wpisz"></div>
+          <br>
+          <div id="ciasteczka-zapisz"></div>
+          <br>
+          <div id="ciasteczka-odczytaj"></div>
+        </section>
+
+        <section class="presentation-part" id="ajax-i-php">
+          <h2 class="subtitle">Bardzo krótki i prosty testy AJAXa pobieranie strony generowanej przez skrypt php</h2>
+          <button type="button" onclick="showPHPcos('php/costam.php', 1)">pokaż 1</button>
+          <button type="button" onclick="showPHPcos('php/costam.php', 2)">pokaż 2</button>
+          <button type="button" onclick="showPHPcos('php/costam.php', 3)">pokaż 3</button>
+          <br>
+          <div id="ajax-i-php-store"></div>
+        </section>
+
+        <section class="presentation-part" id="zabawki-1">
+          <h2 class="subtitle">Szufladki</h2>
+          <p>
+            Na stronach robimy takie inne śmieszne szufladki.
+          </p>
+        </section>
+
+        <section class="presentation-part" id="zabawki-2">
+          <h2 class="subtitle">Kafelki</h2>
+          <p>
+            Strony zdobimy kafelkami.
+          </p>
+          <ul id="lista-kafelkow">
+            <li onclick="tileWall()">Kafelkowa ściana</li><br>
+            <li onclick="tileDog()">Kafelek ścigacz (a może i pies)</li><br>
+            <li onclick="tileBlock()">Kafelek wredzielek (niestety na większości komputerów wredzielek jest jeszcze zbyt wolny by był prawidziwie wredny)</li><br>
+          </ul>
+        </section>
+
+        <section class="presentation-part" id="zabawki-3">
+          <h2 class="subtitle">Znaczki</h2>
+          <form>
+          <b>Kod znaczka (do 5 cyfr):</b> <input type="text" maxlength="5" onkeyup="showSymbol(this.value)"></input>
+          &nbsp;&nbsp;Znaczek: <span id="symbol-field">&nbsp;</span>
+          </form>
+          <form oninput='x.value = "\"&#" + parseInt(b.value) + ";\""'>
+            <input type="number" id="b" value="10000">
+             --> <output name="x" for="b"></output>
+          </form>
+          <pre>
+             &amp;nbsp;  &amp;#160;
+          <  &amp;lt;    &amp;#60;    less than
+          >  &amp;gt;    &amp;#62;    greater than
+          &  &amp;amp;   &amp;#38;    ampersand
+          "  &amp;quot;  &amp;#34;    double quotation mark
+          '  &amp;apos;  &amp;#39;    single quotation mark (apostrophe)
+          ?  &amp;cent;  &amp;#162;   cent
+          ?  &amp;pound; &amp;#163;   pound
+          ?  &amp;yen;   &amp;#165;   yen
+          €  &amp;euro;  &amp;#8364;  euro
+          ©  &amp;copy;  &amp;#169;   copyright
+          ®  &amp;reg;            registered trademark
+          </pre>
+          <p>
+
+          </p>
+
+          <div id="symbols-table">
+            <div class="table-header">
+              <div class="tab-col1of9">8001-8250</div>
+              <div class="tab-col1of9">8251-8500</div>
+              <div class="tab-col1of9">8501-8750</div>
+              <div class="tab-col1of9">8751-9000</div>
+              <div class="tab-col1of9">9001-9250</div>
+              <div class="tab-col1of9">9251-9500</div>
+              <div class="tab-col1of9">9501-9750</div>
+              <div class="tab-col1of9">9751-10000</div>
+              <div class="tab-col1of9">10001-10250</div>
+            </div>
+            <div class="table-row">
+              <div class="tab-col1of9"><script>printSymbols( 8001, 8250);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 8251, 8500);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 8501, 8750);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 8751, 9000);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 9001, 9250);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 9251, 9500);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 9501, 9750);</script></div>
+              <div class="tab-col1of9"><script>printSymbols( 9751,10000);</script></div>
+              <div class="tab-col1of9"><script>printSymbols(10001,10250);</script></div>
+            </div>
+          </div>
+
+          <!-- table id="znaczki">
+            <tr>
+              <th>8001-8250</th>
+              <th>8251-8500</th>
+              <th>8501-8750</th>
+              <th>8751-9000</th>
+              <th>9001-9250</th>
+              <th>9251-9500</th>
+              <th>9501-9750</th>
+              <th>9751-10000</th>
+              <th>10001-10250</th>
+            </tr>
+            <tr>
+              <td><script>printSymbols( 8001, 8250);</script></td>
+              <td><script>printSymbols( 8251, 8500);</script></td>
+              <td><script>printSymbols( 8501, 8750);</script></td>
+              <td><script>printSymbols( 8751, 9000);</script></td>
+              <td><script>printSymbols( 9001, 9250);</script></td>
+              <td><script>printSymbols( 9251, 9500);</script></td>
+              <td><script>printSymbols( 9501, 9750);</script></td>
+              <td><script>printSymbols( 9751,10000);</script></td>
+              <td><script>printSymbols(10001,10250);</script></td>
+            </tr>
+          </table-->
+
+        </section>
+
+        <section class="presentation-part" id="contact0">
+          <ul>
+            <li>email: azetka@azetkaankiety.pl</li>
+            <li>tel: 602 154 195</li>
+          </ul>
+          <iframe style="width:100%; height:100%; border:none;" src="php/sendmessage.php">
+          </iframe>
+
+        </section>
+      </div>
+
+      <div id="presentation-board-side">
+        &nbsp;
+      </div>
+    </div>
+
+    <div id="main-pannel-bottom">
+
+      <div class="table-header">
+        <div class="tab-col3of4">
+          Oferta:
+        </div>
+        <div class="tab-col1of4">
+          Kontakt:
+        </div>
+      </div>
+
+      <div class="table-row">
+        <div class="tab-col1of4">
+          <ul>
+            <li>Wprowadzanie danych</li>
+            <li>Ankiety PAPI, CAPI, WAPI</li>
+          </ul>
+        </div>
+        <div class="tab-col1of4">
+          <ul>
+            <li>Walidacja danych</li>
+            <li>Analiza danych</li>
+            <li>Raporty tabelaryczne</li>
+          </ul>
+        </div>
+        <div class="tab-col1of4">
+          <ul>
+            <li>Strony internetowe</li>
+          </ul>
+        </div>
+        <div class="tab-col1of4">
+          <ul>
+            <li>azetka@azetkaankiety.pl</li>
+            <li>tel: 602 154 195</li>
+            <li>tel: 602 535 910</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="table-footer">
+        <div class="tab-col2of4">
+          &nbsp;
+        </div>
+        <div class="tab-col2of4">
+          i wiele innych
+        </div>
+      </div>
+
+    </div>
+
+
+      <!-- table>
+        <thead>
+          <tr>
+            <th>
+              Oferta:
+            </th>
+            <th>
+              &nbsp;
+            </th>
+            <th>
+              &nbsp;
+            </th>
+            <th>
+              Kontakt:
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li onclick="showPresentation('collecting1');"><a href="#collecting1">Ankiety PAPI</a></li>
+                <li onclick="showPresentation('collecting2');"><a href="#collecting2">Wprowadzanie danych</a></li>
+                <li onclick="showPresentation('collecting3');"><a href="#collecting3">Ankiety CAPI</a></li>
+                <li onclick="showPresentation('collecting4');"><a href="#collecting4">Ankiety WAPI</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li onclick="showPresentation('processing1');"><a href="#processing1">Walidacja danych</a></li>
+                <li onclick="showPresentation('processing2');"><a href="#processing2">Pliki danych</a></li>
+                <li onclick="showPresentation('processing3');"><a href="#processing3">Analiza danych</a></li>
+                <li onclick="showPresentation('processing4');"><a href="#processing4">Raporty tabelaryczne</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li onclick="showPresentation('internet1');"><a href="#internet1">Strony internetowe</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>email: azetka@azetkaankiety.pl</li>
+                <li>tel: 602 154 195</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              i wiele innych
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+              złącze stanowiące na ogół część instalacji, służące do przyłaczania do niej odbiorników
+            </td>
+          </tr>
+        </tfoot>
+      </table-->
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<div id="drawer-left1" class="drawer">
+  <div class="drawer-handler">&lt;&gt;</div>
+  <h2 class="drawertitle">Zbieranie danych</h2>
+  <ul class="drawer-shelf">
+    <li onclick="showPresentation('collecting1');"><a href="#collecting1">Ankiety PAPI</a></li>
+    <li onclick="showPresentation('collecting2');"><a href="#collecting2">Wprowadzanie danych</a></li>
+    <li onclick="showPresentation('collecting3');"><a href="#collecting3">Ankiety CAPI</a></li>
+    <li onclick="showPresentation('collecting4');"><a href="#collecting4">Ankiety WAPI</a></li>
+  </ul>
+</div>
+
+<div id="drawer-left2" class="drawer">
+  <div class="drawer-handler">&lt;&gt;</div>
+  <h2 class="drawertitle">Przetwarzanie danych</h2>
+  <ul class="drawer-shelf">
+    <li onclick="showPresentation('processing1');"><a href="#processing1">Walidacja danych</a></li>
+    <li onclick="showPresentation('processing2');"><a href="#processing2">Pliki danych</a></li>
+    <li onclick="showPresentation('processing3');"><a href="#processing3">Analiza danych</a></li>
+    <li onclick="showPresentation('processing4');"><a href="#processing4">Raporty tabelaryczne</a></li>
+  </ul>
+</div>
+
+<div id="drawer-right1" class="drawer">
+  <div class="drawer-handler">&lt;&gt;</div>
+  <h2 class="drawertitle">Internet</h2>
+  <ul class="drawer-shelf">
+    <li onclick="showPresentation('internet1');"><a href="#internet1">Strony internetowe</a></li>
+    <li onclick="showPresentation('ajax-i-xml');"><a href="#ajax-i-xml">Ajax i XML</a></li>
+    <li onclick="showPresentation('ciasteczka');"><a href="#ciasteczka">Ciasteczka</a></li>
+    <li onclick="showPresentation('ajax-i-php');"><a href="#ajax-i-php">Ajax i PHP</a></li>
+    <li onclick="showPresentation('zabawki-1');"><a href="#zabawki-1">Szufladki</a></li>
+    <li onclick="showPresentation('zabawki-2');"><a href="#zabawki-2">Kafelki</a></li>
+    <li onclick="showPresentation('zabawki-3');"><a href="#zabawki-3">Znaczki</a></li>
+  </ul>
+</div>
+
+
+
+<div></div>
+
+
+
+
+<div id="alert-box">
+<h2 id="alert-box-text">tekst</h2>
+<button id="alert-box-button" onclick='document.getElementById("alert-box-text").style.display="none"'>OK</button>
+</div>
+
+<div id="goto-top-box" class="goto-box">
+&#8911;
+</div>
+<!-- ^&#8896; -->
+
+<div class="kafelekXX" id="tileXX"></div>
+
+<!--<div class="tile-dog" id="tile-dog1"></div>-->
+
+<!--<div class="tile-block" id="tile-block1" ondblclick='document.getElementById("tile-block1").style.display="none";'>dblclick to unblock</div>-->
+
+
+</body>
+
+</html>

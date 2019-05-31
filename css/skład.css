@@ -1,0 +1,197 @@
+body {
+  background-image: url("AZetKa.gif");
+  background-size: 25%;
+}
+
+div {
+  /*position: absolute;*/
+  /*width: 150px;*/
+  /*border: 1px solid black;*/
+  /*border-top: 20px solid black;*/
+  /*top: 100px;*/
+  /*padding: 5px;*/
+}
+
+#alertBox {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  height: 10em;
+  width: 20%;
+  border: 2px solid red;
+  background-color: white;
+  text-align: center;
+  /*display: none;*/
+}
+#alertBoxText {
+  position: absolute;
+  top: 1em;
+  text-align: center;
+}
+#alertBoxbutton {
+  position: absolute;
+  top: 7em;
+}
+
+#tablica {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  /*height: 90%;*/
+  border: 2px solid green;
+  /*padding: 5px;*/
+}
+
+/*KAFELKI*/
+div.kafelek {
+  position: fixed;
+  width: 5%;
+  height: 5%;
+  border-width: 0px;
+  border-radius: 2px;
+  color: red;
+  text-align: center;
+  text-decoration: bold;
+  font-size: xx-small;
+  z-index: 99;
+}
+#tileXX {
+  position: relative;
+  display: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  text-decoration: bold;
+  font-size: xx-small;
+  z-index: 100;
+}
+div.kafelek:hover {
+  opacity: 0.8;
+  border: 1px solid yellow;
+  z-index: 10;
+}
+
+/*MENU*/
+ul#mainmenu {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 100%;
+  z-index: 10;
+  /*border: 0px solid black;*/
+}
+#mainmenu li {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  padding: 2px 5px;
+  width: 120px;
+  background-color: silver;
+  border: 1px solid green;
+  text-indent: 0px;
+  margin-left: 5px;
+}
+#mainmenu li a {
+  color: black;
+  text-decoration: none;
+}
+#mainmenu li a:hover {
+  color: green;
+}
+#mainmenu li ul {/* Ca³e podmenu */
+  background-color: silver;
+  margin: 0px;
+  padding: 0px;
+}
+#mainmenu li ul li {/* Ka¿da pozycja podmenu */
+  background-color: silver;
+  padding: 0px;
+  margin: 0px;
+  float: none;
+  list-style-type: none;
+  text-indent: 0px;
+  border: none;
+}
+#mainmenu li ul li a {
+  color: black;
+  text-decoration: none;
+}
+#mainmenu li ul li a:hover {
+  color: black;
+  background-color: aqua;
+}
+
+
+
+/*DROP DOWN MENU*/
+.dropdownmenu {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  /*display: inline-block;*/
+  /*border: 1px solid green;*/
+}
+.dropdownmenuitem {
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  vertical-align: top;/*middle;*/
+  color: black;
+  text-align: center;
+  padding: 2px 5px;
+  font-family: sans-serif;
+  font-size: 100%;
+  text-indent: 0px;
+  margin: 1%;
+  background-color: silver;
+  border: 1px solid green;
+  cursor: pointer;
+}    
+.dropdownmenuitem:hover {
+  color: white;
+  background-color: darkgrey;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -1px;
+  background-color: silver;
+  /*padding: 2px 5px;*/
+  /*width: 120px;*/
+  border: 1px solid green;
+  border-top: 0px;
+  box-shadow: 10px 10px 10px darkgrey;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 11;
+}
+.dropdown-content a {
+  color: black;
+  padding: 2px 5px;
+  width: 120px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: green;
+  background-color: lightgrey;
+  }
+#menuitem2:hover #menuitem2-cont {
+  display: block;
+}
+#menuitem3:hover #menuitem3-cont {
+  display: block;
+}
+#menuitem4:hover #menuitem4-cont {
+  display: block;
+}
+#menuitem5:hover #menuitem5-cont {
+  display: block;
+}
+
+
+.hidden-desription {
+  display: none;
+}
